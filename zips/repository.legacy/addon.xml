@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.legacy" name="legacy repo" version="0.0.1" provider-name="Chewwy">
+	<extension point="xbmc.addon.repository" name="legacy repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/legacyworldmedia/repository.legacy/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/legacyworldmedia/repository.legacy/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/legacyworldmedia/repository.legacy/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Legacy Repository</summary>
+		<description lang="en">Legacy Repository</description>
+		<genre></genre>
+	</extension>
+</addon>

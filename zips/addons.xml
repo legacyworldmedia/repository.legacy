@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.legacy" name="Legacy" version="0.0.1" provider-name="Chewwy">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Legacy Addon</summary>
+		<description lang="en">Legacy Addon</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre></genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.0.9" provider-name="Ares Team">
+	<extension point="xbmc.addon.repository" name="AresRepo">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AresProject.</summary>
+		<description>Ares-Project Addons Source. Visit Us At https://ares-project.uk</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.colossus" name="Colossus Repository" version="999.999.6" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="Colossus Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.dandymedia" name="Dandymedia Repository" version="1.0.1" provider-name="Dandymedia">
+    <extension point="xbmc.addon.repository" name="Dandymedia Repository">
+        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Dandymedia Repository</summary>
+        <description>Dandymedia collection all addons</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.HalowTV" name="  [COLOR lime][B]HALOW [/COLOR][COLOR white]Repository[/B][/COLOR]" version="6.0.0" provider-name="HalowRepo">
+	<extension point="xbmc.addon.repository" name="  [COLOR lime][B]Halow[/COLOR][COLOR white]Repository[/B][/COLOR]">
+        <info compressed="false">https://raw.githubusercontent.com/HalowTV/HalowTV/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/HalowTV/HalowTV/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/HalowTV/HalowTV/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>halowiptv.blogspot.se</summary>
+		<description>Download and install addons from Halow Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.jesusboxtv" name="Jesusbox Repository" version="1.0.3" provider-name="Playonmonkey">
+	<extension point="xbmc.addon.repository" name="Jesusbox Repository">
+		<info compressed="false">https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jesusboxrepo/repository/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Welcome to the Jesusbox Repository where you will find all Jesusbox produced Addon-ons and wizards</summary>
+		<description>The Best Media Center Box Available</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
+    <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodisrael repository</summary>
+        <description>kodil repository - the most extensive repository in isrl </description>
+        <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.legacy" name="legacy repo" version="0.0.1" provider-name="Chewwy">
+	<extension point="xbmc.addon.repository" name="legacy repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/legacyworldmedia/repository.legacy/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/legacyworldmedia/repository.legacy/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/legacyworldmedia/repository.legacy/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Legacy Repository</summary>
+		<description lang="en">Legacy Repository</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<addon id="repository.lockedtv" name="SG Streams Repository" version="1.0.5" provider-name="SG Streams">
+	<extension point="xbmc.addon.repository" name="SG Streams">
+		<info compressed="false">http://sgstreams.ca/kodi/Plugins/addons.xml</info>
+		<checksum>http://sgstreams.ca/kodi/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://sgstreams.ca/kodi/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>-</summary>
+		<description>Install Add-ons from SG Streams</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">
+	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
+		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Mucky Ducks Repo</summary>
+		<description>Download And Install Addons Developed By Mucky Duck And Various Other Developers </description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.merlin" name=" [COLOR aqua]Merlin Repository[/COLOR]" version="2.0.0" provider-name="Merlin Project">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+		<extension point="xbmc.addon.repository" name="Merlin Repository">
+			<info compressed="false">http://mrepo.uk/merlinrepo/addons.xml</info>
+			<checksum>http://mrepo.uk/merlinrepo/addons.xml.md5</checksum>
+			<datadir zip="true">http://mrepo.uk/merlinrepo/addons/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Host Of Add-Ons And Repositories</summary>
+			<description>Primary Function To Provide Updates To Merlin Builds! Any Other Add-Ons Or Repositories Within Are Provided At My Choice And Discretion, Will Provide Add-Ons And Repositories That Are Publicly Available, Permission Not Required To Do So! Hope You Find This Repository Useful, Enjoy!</description>
+			<platform>all</platform>
+		</extension>
+</addon>
+
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.2" provider-name="noobsandnerds">
+        <extension point="xbmc.addon.repository" name="noobsandnerds Repository">
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+                </dir>
+                <dir>
+                <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+                <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
+                </dir>
+                <dir>
+                <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/midraal/repository.midraal/master/zips/</datadir>
+                </dir>
+                <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Home of The Community Portal</summary>
+                <description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+                <platform>all</platform>
+        </extension>
+</addon>
+
+<addon id="repository.poseidon" name="Poseidon Repo" version="1.0.2" provider-name="Soulless">
+	<extension point="xbmc.addon.repository" name="Poseidon Repo">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+		<info compressed="false">https://raw.githubusercontent.com/S0u77eSS/noreviews/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/S0u77eSS/noreviews/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/S0u77eSS/noreviews/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Poseidon Repo</summary>
+		<description>Download and install Poseidon</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

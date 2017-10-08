@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lockedtv" name="SG Streams Repository" version="1.0.5" provider-name="SG Streams">
+	<extension point="xbmc.addon.repository" name="SG Streams">
+		<info compressed="false">http://sgstreams.ca/kodi/Plugins/addons.xml</info>
+		<checksum>http://sgstreams.ca/kodi/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://sgstreams.ca/kodi/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>-</summary>
+		<description>Install Add-ons from SG Streams</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
